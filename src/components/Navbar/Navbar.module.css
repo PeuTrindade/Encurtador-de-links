@@ -1,0 +1,145 @@
+.nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.header img {
+    margin-top: 1.8rem;
+}
+
+.firstPart {
+    display: flex;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.firstItems {
+    display: flex;
+    list-style: none;
+    margin-left: 20%;
+}
+
+.firstItems li {
+    margin-right: 10%;
+    color:  hsl(0, 0%, 75%);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.firstItems li:hover {
+    color: hsl(257, 27%, 26%);
+}
+
+.secondPart {
+    display: flex;
+    list-style: none;
+    margin-right: 7%;
+}
+
+.secondItems {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.item2 {
+    margin-right: 20%;
+    color:  hsl(0, 0%, 75%);
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.item2:hover {
+    color: hsl(257, 27%, 26%);
+}
+
+.btn {
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    height: 2.3rem;
+    width: 7rem;
+    text-align: center;
+    padding-top: .4rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.btn:hover {
+    background-color: hsl(180, 56%, 42%);
+}
+
+.mobileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+}
+
+.mobileContainer img {
+    margin-left: 5%;
+}
+
+.mobileDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(257, 27%, 26%);
+    height: 14rem;
+    border-radius: 1rem;
+}
+
+.itemsMobile1 {
+    list-style: none;
+    margin-top: .5rem;
+    border-bottom: 1px solid hsl(0, 0%, 75%);
+    width: 80%;
+}
+
+.itemsMobile1 li{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.itemsMobile2 {
+    list-style: none;
+    margin-top: .5rem;
+}
+
+.itemMobile2 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btnMobile{
+    background-color: hsl(180, 66%, 49%);
+    color: white;
+    height: 2.3rem;
+    width: 20rem;
+    text-align: center;
+    padding-top: .4rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all ease .3s;
+    margin-bottom: .5rem;
+}
+
+.btnMobile:hover {
+    background-color: hsl(180, 56%, 42%);
+}
